@@ -95,21 +95,77 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background: #ffffff;
+}
 
+h1,
+h2,
+h3,
+h4,
+p {
+    color: #424242;
+}
 
+h1 {
+    font-size: 52px;
+    font-weight: 100;
+    line-height: 44px;
+}
 
+h2 {
+    font-size: 34px;
+    font-weight: 300;
+}
 
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
 
+h4 {
+    font-size: 12px;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+}
 
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
 
+a {
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
+.button {
+    background: #1897d6;
+    color: #fdfdfd;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 22px 62px;
+}
 
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
 
+.row {
+    display: block;
+}
 
+.column {
+    float: left;
+    width: 25%;
+}
 
-
-
-
+.center {
+    text-align: center;
+}
 
 /* ==========================================================================
    Helper classes
@@ -196,9 +252,9 @@ textarea {
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
