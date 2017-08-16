@@ -281,6 +281,10 @@ header .sub .search img {
 
 /* weight-loss styles */
 
+.weight-loss {
+    margin-bottom: 74px;
+}
+
 .weight-loss h2 {
     margin-top: 44px;
 }
@@ -312,6 +316,53 @@ header .sub .search img {
 .programs h4 {
     color: #929292;
     margin-top: 0;
+}
+
+/* quote styles */
+.quote {
+    background: #1e1e1e;
+    padding: 60px 0;
+    position: relative;
+}
+
+.quote .icon,
+.quote .slider {
+    display: table-cell;
+    padding: 0 14px;
+}
+
+.quote .icon img {
+    width: 94px;
+}
+
+.quote .slider .content p {
+    color: #ffffff;
+}
+
+.quote .slider .content .quotee {
+    color: #1897d3;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    margin-top: 40px;
+    float: right;
+}
+
+.quote .controls {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.quote .controls span {
+    display: inline-block;
+    border: 1px solid #1898d7;
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+}
+
+.quote .controls span.active {
+    background: #1898d7;
 }
 
 /* ==========================================================================
