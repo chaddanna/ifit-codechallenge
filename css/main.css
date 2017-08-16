@@ -234,6 +234,10 @@ header .sub .sub-nav a {
     padding: 5px 13px;
 }
 
+header .sub .sub-nav a:hover {
+    text-decoration: underline;
+}
+
 header .sub .sub-nav a.active {
     color: #424242;
     font-weight: 700;
