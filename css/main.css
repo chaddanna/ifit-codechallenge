@@ -276,7 +276,42 @@ header .sub .search img {
 
 .hero .content p {
     color: #fdfdfd;
-    width: 436px;
+    max-width: 436px;
+}
+
+/* weight-loss styles */
+
+.weight-loss h2 {
+    margin-top: 44px;
+}
+
+.weight-loss p {
+    max-width: 736px;
+    margin: 32px auto 44px auto;
+}
+
+.weight-loss .row + .row {
+    padding-top: 44px;
+}
+
+.programs figure {
+    margin: 0;
+}
+
+.programs figure img {
+    max-width: 100%;
+}
+
+.programs h3 {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.programs h4 {
+    color: #929292;
+    margin-top: 0;
 }
 
 /* ==========================================================================
