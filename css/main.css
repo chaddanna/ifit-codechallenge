@@ -153,6 +153,7 @@ a {
 .container {
     max-width: 1024px;
     margin: 0 auto;
+    width: 90%;
 }
 
 .row {
@@ -363,6 +364,16 @@ header .sub .search img {
 
 .quote .controls span.active {
     background: #1898d7;
+}
+
+/* call-to-action styles */
+.call-to-action {
+    padding: 38px 0;
+}
+.call-to-action .button-container,
+.call-to-action h2 {
+    display: table-cell;
+    padding: 0 20px;
 }
 
 /* ==========================================================================
