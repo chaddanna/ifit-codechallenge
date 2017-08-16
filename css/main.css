@@ -115,6 +115,7 @@ h1 {
 
 h2 {
     font-size: 34px;
+    font-weight: 300;
 }
 
 h3 {
@@ -144,6 +145,7 @@ a {
     color: #fdfdfd;
     display: inline-block;
     font-size: 18px;
+    letter-spacing: 3px;
     padding: 22px 62px;
 }
 
@@ -159,6 +161,10 @@ a {
 .column {
     float: left;
     width: 25%;
+}
+
+.center {
+    text-align: center;
 }
 
 /* ==========================================================================
