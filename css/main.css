@@ -168,6 +168,85 @@ a {
     text-align: center;
 }
 
+/* header styles */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header .main {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 24px 30px;
+}
+
+header .main .logo {
+    float: left;
+}
+
+header .main .logo img {
+    width: 52px;
+}
+
+header .main .main-nav {
+    float: right;
+    margin-right: -8px;
+}
+
+header .main .main-nav a {
+    color: #fdfdfd;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 2px 8px;
+    vertical-align: middle;
+}
+
+header .main .main-nav a img {
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+header .sub {
+    background: rgba(253, 253, 253, 0.8);
+    border-bottom: 1px solid #cecece;
+    padding: 20px 30px;
+}
+
+header .sub .title {
+    color: #424242;
+    float: left;
+    font-size: 18px;
+}
+
+header .sub .sub-nav {
+    float: right;
+}
+
+header .sub .sub-nav a {
+    color: #929292;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px 13px;
+}
+
+header .sub .sub-nav a.active {
+    color: #424242;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+header .sub .search {
+    float: right;
+}
+
+header .sub .search img {
+    display: inline-block;
+    height: 26px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
