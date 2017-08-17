@@ -234,6 +234,10 @@ header .sub .sub-nav a {
     padding: 5px 13px;
 }
 
+header .sub .sub-nav a:hover {
+    text-decoration: underline;
+}
+
 header .sub .sub-nav a.active {
     color: #424242;
     font-weight: 700;
@@ -374,6 +378,98 @@ header .sub .search img {
 .call-to-action h2 {
     display: table-cell;
     padding: 0 20px;
+}
+
+/* footer styles */
+footer {
+    background: #141414;
+    padding: 21px 30px;
+}
+
+footer .footer-left {
+    float: left;
+}
+
+footer .footer-right {
+    float: right;
+}
+
+.footer-nav,
+footer .social {
+    float: left;
+}
+
+.footer-nav a {
+    color: #747575;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.footer-nav a + a:before {
+    content: '/';
+    padding: 0 6px 0 2px;
+}
+
+footer .social {
+    margin-left: 25px;
+}
+
+footer .social a {
+    padding: 4px;
+}
+
+footer .social a + a {
+    margin-left: 8px;
+}
+
+.footer-right span {
+    color: #747575;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.footer-right form {
+    display: inline-block;
+    margin-left: 12px;
+    position: relative;
+}
+
+.footer-right form label {
+    color: #747575;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-right form select {
+    background: none;
+    border: none;
+    color: #747575;
+    font-size: 10px;
+    font-weight: 700;
+    padding-right: 14px;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.footer-right form select:focus {
+    outline: none;
+}
+
+.footer-right form:after {
+    color: #747475;
+    content: "▼";
+    font-size: 8px;
+    padding: 2px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 1;
+    text-align: center;
+    pointer-events: none;
+    box-sizing: border-box;
 }
 
 /* ==========================================================================
