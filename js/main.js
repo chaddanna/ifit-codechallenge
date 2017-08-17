@@ -1,3 +1,20 @@
+// Menu toggle
+const menu = document.querySelector('.toggled-menu')
+const menuOpen = document.querySelector('.open-menu')
+const menuClose = document.querySelector('.close-menu')
+
+function openMenu() {
+	menu.classList.add('active')
+}
+
+function closeMenu() {
+	menu.classList.remove('active')
+}
+
+menuOpen.addEventListener('click', openMenu)
+menuClose.addEventListener('click', closeMenu)
+
+
 // Search toggle
 const searchIcon = document.querySelector('.search label')
 const searchInput = document.querySelector('.search input')
